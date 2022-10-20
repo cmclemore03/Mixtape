@@ -1,3 +1,7 @@
+html{
+  scroll-behavior: smooth
+}
+
 .center {
   display: block;
   margin-right: auto;
@@ -5,12 +9,11 @@
   width: 150px;
 }
 
-
 main{
   display: block;
   margin-right: auto;
   margin-left: auto;
-  width: 500px;
+  width: 800px;
 
 }
 
@@ -19,8 +22,42 @@ body{
   font-family: Arial, Helvetica, Sans-serif ;
   line-height:1.2;
   font-size: 16px;
-  color: 
+  color:;
 }
+
+.wrapper{
+  width:;
+  margin: auto;
+  background:;
+  padding:;
+}
+
+.header{
+  height: 400px;
+  padding-top:100px;
+  width:100%;
+  line-height: 200px;
+  display:;
+  margin:auto;
+  position:relative;
+  background: url("header/casette-tape-header-01.png") left top no-repeat, url("header/bass-guitar-header-02.png") right top no-repeat;
+}
+.header h1{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/*img{
+
+max-width: 100%;
+
+} */
+
+/*.cover-art:{
+width:;
+} */
 
 li{
   line-height: 1.2;
@@ -31,6 +68,8 @@ a{
 
 h1{
   text-align: center;
+  font-family: 'La Belle Aurore', sans-serif;
+
 }
 
 h2{
