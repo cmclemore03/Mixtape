@@ -8,19 +8,25 @@
 
 main{
   display: block;
-  margin-right; auto;
-  margin-left; auto;
+  margin-right: auto;
+  margin-left: auto;
   width: 500px;
 
 }
 
 body{
   background: #F5C884;
-  font-family:
+  font-family: Arial, Helvetica, Sans-serif ;
+  line-height:1.2;
+  font-size: 16px;
+  color: 
 }
 
+li{
+  line-height: 1.2;
+}
 a{
-  color;
+  color:black;
 }
 
 h1{
@@ -30,3 +36,12 @@ h1{
 h2{
   text-align: center;
 }
+
+h3{
+  text-align: center;
+}
+
+p{
+  text-align: center;
+}
+/* when adding header image css make on background right and the other left*/
