@@ -1,3 +1,5 @@
+
+/* styles for mobil devices*/
 html{
   scroll-behavior: smooth
 }
@@ -13,20 +15,20 @@ main{
   display: block;
   margin-right: auto;
   margin-left: auto;
-  width: 750px;
+  width: 450px;
 
 }
 
 body{
   background: #F5C884;
-  font-family: Arial, Helvetica, Sans-serif ;
+  font-family: Arial, Helvetica, Sans-serif;
   line-height:1.2;
   font-size: 16px;
   color:;
 }
 
 .wrapper{
-  width:;
+  width: ;
   margin: auto;
   background:;
   padding:;
@@ -36,11 +38,11 @@ body{
   height: 400px;
   padding-top:100px;
   width:100%;
-  line-height: 200px;
-  display:;
+  line-height: 150px;
+  display: block s;
   margin:auto;
   position:relative;
-  background: url("header/casette-tape-header-01.png") left top no-repeat, url("header/bass-guitar-header-02.png") right top no-repeat;
+  background: url("header/bass-guitar-header-02.png") left Top no-repeat, url("header/casette-tape-header-01.png") right top no-repeat;
 }
 .header h1{
   position: absolute;
@@ -66,30 +68,46 @@ max-width: 100%;
 
 li{
   line-height: 1.8;
+  font-size: 14px ;
 }
 a:link{
   color:black;
 }
 
 a:visited{
-  color:grey;
+  color: grey ;
 }
 
 h1{
+  font-family: 'La Belle Aurore';
+  text-align: center;
+  font-size: 45px;
+  color: #5F2718
+}
+ /*h1{
   text-align: center;
   font-family: 'La Belle Aurore', sans-serif;
-
-}
+  font-size: 45px;
+  color: #5F2718; }*/
 
 h2{
   text-align: center;
+  font-size: 25px;
+  padding: 10px;
+  color:#5F2718;
 }
 
 h3{
   text-align: center;
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  line-height: 30px;
+  color: #5F2718;
 }
 
 p{
-  text-align: center;
+  text-align: ;
+  line-height: 1.8;
+
 }
-/* when adding header image css make on background right and the other left*/
